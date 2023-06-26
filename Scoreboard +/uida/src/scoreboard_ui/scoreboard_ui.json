@@ -10,34 +10,34 @@
 		"$transparency_bg": 1,                            // Here you can decide how transparent your background should be, 0 to 10
 
 		//Watch out for location use these (top_left top_middle top_right left_middle center right_middle bottom_left , bottom_middle  bottom_right)
-		"$anchor_from_aru": "right_middle",              // If you want to change the lotus position edit both later ( $anchor_from_aru , $anchor_to_aru )
-        "$anchor_to_aru": "right_middle",               
+		"$anchor_from_aru": "bottom_left",              // If you want to change the lotus position edit both later ( $anchor_from_aru , $anchor_to_aru )
+        "$anchor_to_aru": "bottom_left",               
 		
 	// Logo Scoreboard Setup //
 
 	    //Setup Base Icon no animation
 		"$icon_scoreboard_base": "uida/resources/scoreboard_ui/logo_scoreboard", // If you don't want to overlap the file and create a new one add its location here.
-		"$logo_aruban_base": "(#objective_sidebar_name = 'da.aru.logo')",       // (da.aru.logo) It must be the title of the score for the image to appear, if you want to insert a new one, replace only that, also the one in text_aruban_inv.
+		"$logo_aruban_base": "(#objective_sidebar_name = 'Ether Skygen')",       // (da.aru.logo) It must be the title of the score for the image to appear, if you want to insert a new one, replace only that, also the one in text_aruban_inv.
 
 		//Setup Icon animation
 		"$icon_scoreboard_anim": "uida/resources/scoreboard_ui/logo_scoreboard_anim",  // If you don't want to overlap the file and create a new one add its location here.
 		"$icon_uv_size": [ 849, 101],
-        "$logo_aruban_anim": "(#objective_sidebar_name = 'da.aru.logo.anim')",         // (da.aru.logo.anim') It must be the title of the score for the image to appear, if you want to insert a new one, replace only that, also the one in text_aruban_inv.
+        "$logo_aruban_anim": "(#objective_sidebar_name = 'Ether Skygen')",         // (da.aru.logo.anim') It must be the title of the score for the image to appear, if you want to insert a new one, replace only that, also the one in text_aruban_inv.
 
 		//Setup Base and Animation Icon
-		"$text_aruban_inv": "(not ((#objective_sidebar_name = 'da.aru.logo.anim') or (#objective_sidebar_name = 'da.aru.logo')))",  // Here you will have to replace both according to the one entered before
+		"$text_aruban_inv": "(not ((#objective_sidebar_name = 'Ether Skygen') or (#objective_sidebar_name = 'da.aru.logo')))",  // Here you will have to replace both according to the one entered before
 		"$position_icon" : [ 0,2],  // Here you will decide the position of your logo
 		"$icon_size": [102,22],     // Here you will decide the size of your logo
 
 	// Font Text Scoreboard //
 
 		// Font Title Score and size text
-		"$title_score_aru": "MinecraftTen",  // Exemple font type ( default , rune , unicode , smooth , MinecraftTen )
-		"$title_size_aru" : "normal",        // Exemple size font ( small , normal )
+		"$title_score_aru": "smooth",  // Exemple font type ( default , rune , unicode , smooth , MinecraftTen )
+		"$title_size_aru" : "small",        // Exemple size font ( small , normal )
 
 		// Font Title Players and size text
-		"$player_score_aru": "MinecraftTen", // Exemple font type ( default , rune , unicode , smooth , MinecraftTen )
-		"$player_size_aru" : "normal"        // Exemple size font ( small , normal )
+		"$player_score_aru": "smooth", // Exemple font type ( default , rune , unicode , smooth , MinecraftTen )
+		"$player_size_aru" : "small"        // Exemple size font ( small , normal )
 	  },
 //Animation Icon Scoreboard Speed
 
